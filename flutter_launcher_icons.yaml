@@ -1,0 +1,25 @@
+# Regenerate with: dart run flutter_launcher_icons
+# Sources are built from assets/images/logo/logo.png (heart mark only; the
+# wordmark is unreadable at launcher sizes) on AppColors.background #FFF8F6.
+flutter_launcher_icons:
+  image_path: "assets/images/logo/app_icon.png"
+
+  android: true
+  min_sdk_android: 21
+  adaptive_icon_background: "#FFF8F6"
+  adaptive_icon_foreground: "assets/images/logo/app_icon_foreground.png"
+
+  ios: true
+  remove_alpha_ios: true
+
+  web:
+    generate: true
+    background_color: "#FFF8F6"
+    theme_color: "#4D1821"
+
+  windows:
+    generate: true
+    icon_size: 256
+
+  macos:
+    generate: true

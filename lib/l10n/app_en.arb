@@ -1,0 +1,533 @@
+{
+  "@@locale": "en",
+  "language": "Language",
+  "appLanguage": "App language",
+  "appLanguageSubtitle": "Amour is available in English, Tamil, Malayalam and Hindi.",
+  "deviceLanguage": "Phone’s language",
+  "deviceLanguageSubtitle": "Follow your phone’s settings",
+  "addedSpokenLanguage": "Added {language} to Languages I speak",
+  "@addedSpokenLanguage": {
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "languagesISpeak": "Languages I speak",
+  "languagesEditTitle": "Which languages do you speak?",
+  "languagesEditSubtitle": "We’ll show you more people you can really talk to.",
+  "speaks": "Speaks {languages}",
+  "@speaks": {
+    "placeholders": {
+      "languages": {
+        "type": "String"
+      }
+    }
+  },
+  "selectedCount": "{count} selected",
+  "@selectedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "appTagline": "Meaningful connections, thoughtfully made.",
+  "welcomeTitle": "Find your person",
+  "welcomeSubtitle": "Join a community that dates with intention.",
+  "createAccount": "Create account",
+  "signIn": "Sign in",
+  "termsNotice": "By continuing you agree to our Terms and Privacy Policy.",
+  "signInTitle": "Welcome back",
+  "signInSubtitle": "Sign in with your email to continue.",
+  "email": "Email",
+  "password": "Password",
+  "passwordHint": "At least 8 characters",
+  "errEmail": "Enter a valid email address",
+  "errPassword": "Password must be at least 8 characters",
+  "forgotPassword": "Forgot password?",
+  "resetComingSoon": "Password reset is coming soon",
+  "newToAmour": "New to Amour?",
+  "createTitle": "Create your account",
+  "createSubtitle": "A few details and you’re in.",
+  "fullName": "Full name",
+  "nameHint": "Your name",
+  "confirmPassword": "Confirm password",
+  "confirmPasswordHint": "Re-enter password",
+  "errName": "Enter your name",
+  "errPasswordMismatch": "Passwords don’t match",
+  "agreeTerms": "I agree to the {terms} and {privacy}",
+  "@agreeTerms": {
+    "placeholders": {
+      "terms": {
+        "type": "String"
+      },
+      "privacy": {
+        "type": "String"
+      }
+    }
+  },
+  "terms": "Terms",
+  "privacyPolicy": "Privacy Policy",
+  "accountCreated": "Account created — let’s set up your profile",
+  "haveAccount": "Already have an account?",
+  "tabDiscover": "Discover",
+  "tabMatches": "Matches",
+  "tabChats": "Chats",
+  "tabProfile": "Profile",
+  "saved": "Saved",
+  "preferences": "Preferences",
+  "caughtUpTitle": "You're all caught up",
+  "caughtUpMessage": "Check back soon for new people nearby, or widen your preferences.",
+  "editPreferences": "Edit preferences",
+  "superCrushSent": "SuperCrush sent to {name} · {count} left",
+  "@superCrushSent": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "rewind": "Rewind",
+  "pass": "Pass",
+  "like": "Like",
+  "kmAway": "{km} km away",
+  "@kmAway": {
+    "placeholders": {
+      "km": {
+        "type": "int"
+      }
+    }
+  },
+  "stampLike": "LIKE",
+  "stampNope": "NOPE",
+  "percentMatch": "{percent}% match",
+  "@percentMatch": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "ringMatch": "match",
+  "verify": "Verify",
+  "whyYouMatch": "Why you match",
+  "matchLabelWith": "{label} with {name}",
+  "@matchLabelWith": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "matchExceptional": "Exceptional match",
+  "matchGreat": "Great match",
+  "matchGood": "Good match",
+  "matchWorthALook": "Worth a look",
+  "matchNoReasons": "Add interests, languages, relationship goals and lifestyle to your profile for sharper picks.",
+  "picksGetSmarter": "Picks get smarter as you like, skip and save.",
+  "youAndName": "You & {name}",
+  "@youAndName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "saveProfile": "Save profile",
+  "removeFromSaved": "Remove from saved",
+  "savedToast": "Saved {name} · you’ll see more people like them",
+  "@savedToast": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "removedToast": "Removed {name} from saved",
+  "@removedToast": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "listAnd": "{first} and {last}",
+  "@listAnd": {
+    "placeholders": {
+      "first": {
+        "type": "String"
+      },
+      "last": {
+        "type": "String"
+      }
+    }
+  },
+  "reasonInterestsFew": "You both love {list}",
+  "@reasonInterestsFew": {
+    "placeholders": {
+      "list": {
+        "type": "String"
+      }
+    }
+  },
+  "reasonInterestsFewDetail": "An easy first conversation starter.",
+  "reasonInterestsMany": "{count} interests in common",
+  "@reasonInterestsMany": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "reasonInterestsManyDetail": "{list} are on both your profiles.",
+  "@reasonInterestsManyDetail": {
+    "placeholders": {
+      "list": {
+        "type": "String"
+      }
+    }
+  },
+  "reasonGoalsSame": "Same relationship goals",
+  "reasonGoalsSameDetail": "You’re both looking for: {goal}.",
+  "@reasonGoalsSameDetail": {
+    "placeholders": {
+      "goal": {
+        "type": "String"
+      }
+    }
+  },
+  "reasonGoalsSimilar": "Similar relationship goals",
+  "reasonGoalsSimilarDetail": "You: {mine} · {name}: {theirs}.",
+  "@reasonGoalsSimilarDetail": {
+    "placeholders": {
+      "mine": {
+        "type": "String"
+      },
+      "name": {
+        "type": "String"
+      },
+      "theirs": {
+        "type": "String"
+      }
+    }
+  },
+  "reasonLanguages": "You both speak {languages}",
+  "@reasonLanguages": {
+    "placeholders": {
+      "languages": {
+        "type": "String"
+      }
+    }
+  },
+  "reasonLanguagesDetail": "Chat in the language you’re most comfortable in.",
+  "reasonLifestyle": "Similar lifestyle",
+  "reasonLifestyleDetail": "Same answers on {topics}.",
+  "@reasonLifestyleDetail": {
+    "placeholders": {
+      "topics": {
+        "type": "String"
+      }
+    }
+  },
+  "reasonPreferences": "Fits your preferences",
+  "reasonPreferencesDetail": "Matches what you picked for {topics}.",
+  "@reasonPreferencesDetail": {
+    "placeholders": {
+      "topics": {
+        "type": "String"
+      }
+    }
+  },
+  "reasonSameCity": "Also in {city}",
+  "@reasonSameCity": {
+    "placeholders": {
+      "city": {
+        "type": "String"
+      }
+    }
+  },
+  "reasonSameCityDetail": "{km} km away — easy to meet up.",
+  "@reasonSameCityDetail": {
+    "placeholders": {
+      "km": {
+        "type": "int"
+      }
+    }
+  },
+  "reasonNearby": "Lives nearby",
+  "reasonNearbyDetail": "{km} km away in {city}.",
+  "@reasonNearbyDetail": {
+    "placeholders": {
+      "km": {
+        "type": "int"
+      },
+      "city": {
+        "type": "String"
+      }
+    }
+  },
+  "reasonTaste": "Your type",
+  "reasonTasteDetail": "Similar to people you’ve liked who are into {list}.",
+  "@reasonTasteDetail": {
+    "placeholders": {
+      "list": {
+        "type": "String"
+      }
+    }
+  },
+  "reasonVerified": "Verified profile",
+  "reasonVerifiedDetail": "Photo-verified, so they are who they say they are.",
+  "topicKids": "kids",
+  "topicSmoking": "smoking",
+  "topicSport": "sport",
+  "topicDrinking": "drinking",
+  "topicFood": "food habits",
+  "itsAMatch": "It's a match",
+  "likeEachOther": "You and {name} like each other.",
+  "@likeEachOther": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "sendMessage": "Send a message",
+  "keepDiscovering": "Keep discovering",
+  "newMatches": "New matches",
+  "conversations": "Conversations",
+  "online": "Online",
+  "recentlyActive": "Recently active",
+  "message": "Message",
+  "betterThanHey": "Say something better than “hey”",
+  "send": "Send",
+  "matchedWith": "You matched with {name}",
+  "@matchedWith": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "icebreakers": "Icebreakers",
+  "icebreakersSubtitle": "Start with what you share. Tap one to edit it before sending.",
+  "moreIdeas": "More ideas",
+  "useIcebreaker": "Use icebreaker: {text}",
+  "@useIcebreaker": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "icebreakerTaste": "{name} is into {interest}",
+  "@icebreakerTaste": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "interest": {
+        "type": "String"
+      }
+    }
+  },
+  "icebreakerTheirInterest": "{name} loves {interest}",
+  "@icebreakerTheirInterest": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "interest": {
+        "type": "String"
+      }
+    }
+  },
+  "icebreakerJob": "{name} is a {job}",
+  "@icebreakerJob": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "job": {
+        "type": "String"
+      }
+    }
+  },
+  "icebreakerJobLine": "What’s the best part of being a {job}?",
+  "@icebreakerJobLine": {
+    "placeholders": {
+      "job": {
+        "type": "String"
+      }
+    }
+  },
+  "icebreakerInterestFallback1": "How did you get into {interest}?",
+  "@icebreakerInterestFallback1": {
+    "placeholders": {
+      "interest": {
+        "type": "String"
+      }
+    }
+  },
+  "icebreakerInterestFallback2": "What do you love most about {interest}?",
+  "@icebreakerInterestFallback2": {
+    "placeholders": {
+      "interest": {
+        "type": "String"
+      }
+    }
+  },
+  "resetPicksTitle": "Reset your picks?",
+  "resetPicksMessage": "Amour will forget your likes, skips and SuperCrushes. Saved profiles stay.",
+  "reset": "Reset",
+  "picksReset": "Your picks have been reset",
+  "savedProfiles": "Saved profiles",
+  "nothingSaved": "Nothing saved yet",
+  "nothingSavedMessage": "Tap the bookmark on a profile to keep it here. Saving also tells Amour who to show you more of.",
+  "yourPicks": "Your picks",
+  "yourPicksBody": "Discover is ranked by your profile, your preferences and who you like, skip and save.",
+  "liked": "Liked",
+  "skipped": "Skipped",
+  "drawnTo": "You’re drawn to",
+  "resetPicks": "Reset picks",
+  "settings": "Settings",
+  "sectionAccount": "Account",
+  "sectionDiscovery": "Discovery",
+  "sectionPrivacy": "Privacy & safety",
+  "sectionNotifications": "Notifications",
+  "sectionGeneral": "General",
+  "hapticFeedback": "Haptic feedback",
+  "sectionSupport": "Support",
+  "personalDetails": "Personal details",
+  "emailAndPhone": "Email & phone",
+  "blockedProfiles": "Blocked profiles",
+  "blockedCount": "{count} blocked",
+  "@blockedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "safetyCentre": "Safety centre",
+  "help": "Help",
+  "termsAndPrivacy": "Terms & privacy",
+  "showMeInDiscover": "Show me in Discover",
+  "showOnlineStatus": "Show online status",
+  "messages": "Messages",
+  "signOut": "Sign out",
+  "signOutTitle": "Sign out?",
+  "signOutMessage": "You can sign back in any time.",
+  "deleteAccount": "Delete account",
+  "version": "Version {version}",
+  "@version": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "cancel": "Cancel",
+  "back": "Back",
+  "more": "More",
+  "add": "Add",
+  "edit": "Edit",
+  "profileStrength": "Profile strength",
+  "myPhotos": "My photos",
+  "manage": "Manage",
+  "managePhotos": "Manage photos",
+  "aboutMe": "About me",
+  "addBioHint": "Add a short bio to tell people about yourself.",
+  "editProfile": "Edit profile",
+  "editPhotos": "Edit photos",
+  "about": "About",
+  "interests": "Interests",
+  "lookingFor": "Looking for: {goal}",
+  "@lookingFor": {
+    "placeholders": {
+      "goal": {
+        "type": "String"
+      }
+    }
+  },
+  "reportName": "Report {name}",
+  "@reportName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "blockName": "Block {name}",
+  "@blockName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "blockTitle": "Block {name}?",
+  "@blockTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "blockMessage": "They won't be able to see your profile or message you.",
+  "block": "Block",
+  "blockedToast": "{name} has been blocked",
+  "@blockedToast": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "voicePromptTitle": "Answer with your voice",
+  "voicePromptSubtitle": "Up to {seconds} seconds. Hearing you is the quickest way for someone to feel they know you.",
+  "@voicePromptSubtitle": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "tapToRecord": "Tap to record",
+  "recordingNow": "Recording…",
+  "stopRecording": "Stop recording",
+  "reRecord": "Re-record",
+  "deleteVoice": "Delete voice note",
+  "voiceTooShort": "Too short — say a little more",
+  "micNeeded": "Microphone access is needed to record a voice prompt.",
+  "micBlockedTitle": "Microphone access is off",
+  "micBlockedMessage": "Turn on microphone access for Amour in Settings to record voice prompts.",
+  "openSettings": "Open Settings",
+  "recordFailed": "Couldn’t record. Please try again.",
+  "playVoice": "Play voice prompt",
+  "pauseVoice": "Pause voice prompt",
+  "playFailed": "This voice note couldn’t be played.",
+  "voiceBadge": "Voice",
+  "teaserSubtitle": "Keep it short, honest and a little playful.",
+  "yourAnswer": "Your answer",
+  "captionHint": "Add a written answer (optional)",
+  "save": "Save",
+  "changePrompt": "Change prompt",
+  "teaserSaved": "Teaser saved",
+  "reasonVoice": "Recorded a voice prompt",
+  "reasonVoiceDetail": "Hear them before you match — a voice is much harder to fake than a photo.",
+  "icebreakerVoice": "{name}’s voice prompt",
+  "@icebreakerVoice": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  }
+}

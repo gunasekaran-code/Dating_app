@@ -1,0 +1,34 @@
+name: amour
+description: Premium dating app built on a centralized design system.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  google_fonts: ^6.2.1
+  cupertino_icons: ^1.0.8
+  image_picker: ^1.2.3
+  camera: ^0.12.0+2
+  permission_handler: ^12.0.3
+  record: ^6.2.1
+  just_audio: ^0.10.6
+  path_provider: ^2.1.6
+  video_player: ^2.11.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.4
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/images/
+    - assets/voice/
+    - assets/videos/amour_splash.mp4
+    - assets/images/logo/logo_mark.png
